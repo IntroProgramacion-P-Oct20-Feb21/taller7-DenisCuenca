@@ -14,16 +14,17 @@ public class Ejemplo03 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         
-        boolean bandera = true;
+       var  bandera = "";
         String salir;
         
         do {
             System.out.println("Desea salir del ciclo; digite: si");
-            salir = entrada.nextLine();
-            if(salir.equals("si")){
-                bandera = false;
+            salir = entrada.nextLine();// si SI Si
+            salir = salir.toLowerCase();//la cadena siempre se convierte a minusculas = si SI Si
+              //if(salir.equals("si")){
+              //  bandera = false;
             }
-        } while (bandera);
+        } while (bandera.equals("si"));
         
         
     }

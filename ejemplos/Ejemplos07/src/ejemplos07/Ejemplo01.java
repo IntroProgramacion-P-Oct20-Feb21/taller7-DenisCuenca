@@ -27,8 +27,8 @@ public class Ejemplo01 {
             contador = contador + 1;
             denominador = denominador + 2;
         }
-        System.out.println();
-       
+        System.out.println(denominador);   System.out.println(numerador);
+          
     }
     
 }
