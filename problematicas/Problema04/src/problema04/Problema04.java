@@ -21,10 +21,10 @@ public class Problema04 {
             1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + 1/13 - 1/15*/
         int contador = 1;
         int num = 1;
-        int den = 1;
+        int den = 3;
         double divicion;
-        double diviciones = 0;
-        String cadena = "";
+        double diviciones = 1;
+        String cadena = "1 ";
         
         while (den <= 15) {
             divicion = (double)num / (double) den;
