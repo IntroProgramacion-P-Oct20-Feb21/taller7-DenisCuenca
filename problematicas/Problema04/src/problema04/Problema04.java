@@ -25,8 +25,9 @@ public class Problema04 {
         double divicion;
         double diviciones = 0;
         String cadena = "";
+        
         while (den <= 15) {
-            divicion = num / den;
+            divicion = (double)num / (double) den;
             if ((contador % 2) == 0) {
 
                 cadena = String.format("%s-%s/%s ", cadena, num, den);
@@ -40,7 +41,7 @@ public class Problema04 {
             den += 2;
             
         }
-        cadena = String.format("%s\nResultado: %s", cadena, diviciones);
+        cadena = String.format("%s\nResultado: %.2f", cadena, diviciones);
         System.out.println(cadena);
     }
 
